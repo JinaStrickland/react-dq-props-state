@@ -40,9 +40,9 @@ export default class MasterHog extends Component {
         </div>
         
         <ul className="hoglist">
-          <BabyHog />
-          <BabyHog />
-          <BabyHog />
+          <BabyHog eyeColor={ this.state.eyeColor } hobby={"flying"} name={ "Little Piggie" }/>
+          <BabyHog eyeColor={ this.state.eyeColor } hobby={"swim"} name={ "Porkey" }/>
+          <BabyHog eyeColor={ this.state.eyeColor } hobby={"eat"} name={ "Pinkie" }/>
         </ul>
 
       </div>
